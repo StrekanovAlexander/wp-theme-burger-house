@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 8px 22px;
+}
+button.btn-yellow {
+  background-color: #ffc657;
+  border: 1px solid #ffbd3e;
+  color: #392919;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: -1px;
+}
+button.btn-red {
+  background-color: #c02223;
+  border: 1px solid #aa1e1f;
+  color: white;
+  font-family: "Alfa Slab One", sans-serif;
+}
+
+h1, h2 {
+  color: #392919;
+  font-family: "Alfa Slab One", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 39px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+header {
+  position: relative;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+section .section__title p {
+  margin: 0;
+}
+section .section__title span {
+  display: block;
+  color: #392919;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.banners, .events, .products {
+  margin: 78px 0 64px;
+}
+
+.banners_item {
+  position: relative;
+}
+.banners_item-title {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  text-transform: uppercase;
+}
+.banners_item-title h3, .banners_item-title span {
+  color: white;
+  margin-bottom: 5px;
+}
+.banners_item-title h3 {
+  font: 31px/31px "Oswald", sans-serif;
+}
+.banners_item-title span {
+  display: block;
+  font: 24px/24px "Oswald", sans-serif;
+}
+
+.events {
+  background-color: white;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.footer {
+  background-image: url("../images/backgrounds/bg-footer.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  color: white;
+  height: 525px;
+  margin: 15px 0 67px;
+  padding: 65px 32px 32px;
+  position: relative;
+}
+.footer .row {
+  height: 100%;
+}
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_about p {
+  line-height: 1.5;
+  margin-top: 35px;
+}
+.footer_copyright {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.footer_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_contacts ul {
+  list-style: none;
+}
+.footer_contacts ul li {
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  line-height: 2.5;
+  text-transform: uppercase;
+}
+.footer_contacts ul li i {
+  display: inline-block;
+  font-size: 1.75em;
+  text-align: center;
+  width: 3.25em;
+}
+.footer_links {
+  display: flex;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.footer_links i {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5em;
+  margin-right: 10px;
+  width: 1.5em;
+}
+
+.header_banner {
+  background-color: #ffc657;
+  background-image: url("../images/backgrounds/burger-header.png");
+  background-repeat: no-repeat;
+  background-position: 82% 8%;
+  color: #392919;
+  font-family: "Alfa Slab One", sans-serif;
+  height: 824px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.header_banner p {
+  border: 2px dashed #392919;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: left;
+}
+.header_banner h1 {
+  font-size: 105px;
+  line-height: 105px;
+  color: #392919;
+  margin: 20px 0 0;
+  text-shadow: 4px 4px #fee9bc;
+}
+.header_banner span {
+  font-size: 44px;
+  text-shadow: 3px 3px #fee9bc;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  height: 58px;
+  text-decoration: none;
+}
+.logo a img {
+  margin-right: 22px;
+}
+.logo a span {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo-brown {
+  color: #392919;
+}
+.logo-white {
+  color: white;
+}
+
+.navbar {
+  height: 50px;
+  margin-top: 54px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.navbar_menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 38px;
+}
+.navbar_menu ul li {
+  margin-left: 57px;
+}
+.navbar_menu ul li a {
+  color: #392919;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  letter-spacing: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.products p {
+  margin: 0 85px 45px;
+}
+.products_title {
+  text-align: center;
+}
+.products_title h2 {
+  font-size: 39px;
+}
+.products_item {
+  text-align: center;
+}
+.products_item-description h3 {
+  color: #392919;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 14px 0;
+}
+.products_item-description p {
+  margin: 0;
+}
+.products_item button {
+  margin-top: 24px;
+}
+
+.reservation {
+  padding: 100px;
+  background-image: url("../images/backgrounds/burger-and-bottle.png"), url("../images/backgrounds/burger-on-plate.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  text-align: center;
+}
+.reservation form {
+  margin-top: 75px;
+}
+.reservation button {
+  padding: 14px 15px;
+}
+.reservation input {
+  padding: 15px 15px;
+}
+.reservation input {
+  border: 1px solid #bebebe;
+  color: #3d3d3d;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.reservation button {
+  border-radius: 8px;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .main-banner {
+    display: none;
+  }
+  section {
+    margin: 32px 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
