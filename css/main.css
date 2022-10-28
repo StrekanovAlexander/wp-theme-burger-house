@@ -229,6 +229,7 @@ section .section_title span {
 .logo a span {
   font-size: 30px;
   font-family: "Oswald", sans-serif;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
