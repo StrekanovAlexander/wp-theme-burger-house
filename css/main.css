@@ -131,6 +131,7 @@ section .section_title span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 .footer_contacts ul {
   list-style: none;
@@ -155,7 +156,7 @@ section .section_title span {
   position: absolute;
 }
 .footer_links i {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   color: black;
   font-size: 1.25em;
@@ -165,6 +166,10 @@ section .section_title span {
   height: 1.5em;
   margin-right: 10px;
   width: 1.5em;
+  transition: all 0.2s;
+}
+.footer_links i:hover {
+  background-color: white;
 }
 
 .header_banner {
@@ -329,6 +334,9 @@ section .section_title span {
   }
   .footer {
     margin-bottom: 10px;
+  }
+  .footer_links i {
+    background-color: white;
   }
   .navbar {
     background-color: #ffc657;
