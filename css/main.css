@@ -57,10 +57,10 @@ img {
   max-width: 100%;
 }
 
-section .section__title p {
+section .section_title p {
   margin: 0;
 }
-section .section__title span {
+section .section_title span {
   display: block;
   color: #392919;
   font-size: 18px;
@@ -271,7 +271,6 @@ section .section__title span {
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
-  letter-spacing: -1px;
   margin: 14px 0;
 }
 .products_item-description p {
@@ -282,22 +281,26 @@ section .section__title span {
 }
 
 .reservation {
-  padding: 100px;
   background-image: url("../images/backgrounds/burger-and-bottle.png"), url("../images/backgrounds/burger-on-plate.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
   text-align: center;
+  padding: 100px 0;
 }
-.reservation form {
+.reservation_form {
+  margin: 0 auto 50px;
+  width: 65%;
+}
+.reservation_form form {
   margin-top: 75px;
 }
-.reservation button {
+.reservation_form form button {
   padding: 14px 15px;
 }
-.reservation input {
+.reservation_form form input {
   padding: 15px 15px;
 }
-.reservation input {
+.reservation_form form input {
   border: 1px solid #bebebe;
   color: #3d3d3d;
   font-family: "Oswald", sans-serif;
@@ -306,17 +309,69 @@ section .section__title span {
   text-transform: uppercase;
   width: 100%;
 }
-.reservation button {
+.reservation_form form button {
   border-radius: 8px;
   width: 100%;
 }
 
 @media (max-width: 375px) {
-  .main-banner {
+  .banners, .events, .products {
+    margin: 20px 0;
+  }
+  .banners_item-title h3 {
+    font: 20px/20px "Oswald", sans-serif;
+  }
+  .banners_item-title span {
+    font: 16px/16px "Oswald", sans-serif;
+  }
+  .events_description {
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-bottom: 10px;
+  }
+  .navbar {
+    background-color: #ffc657;
+    position: relative;
+    height: auto;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .navbar_menu {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .navbar_menu ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 0 10px;
+  }
+  .navbar_menu ul li {
+    margin-left: 0;
+  }
+  .header_banner {
     display: none;
   }
-  section {
-    margin: 32px 0;
+  .products p {
+    margin: 0 20px 20px;
+  }
+  .products_title h2 {
+    font-size: 22px;
+  }
+  .products_item {
+    margin-bottom: 20px;
+  }
+  .products_item-description h3 {
+    margin: 10px 0;
+  }
+  .products_item-description p {
+    margin: 0 0 10px;
+  }
+  .products button {
+    margin: 0 0 20px;
+  }
+  .reservation_form {
+    width: 100%;
   }
 }
 
