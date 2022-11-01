@@ -1,55 +1,81 @@
 @media (max-width: 375px)
-  .banners, .events, .products
-    margin: 20px 0
+  main
+    margin-top: 15em
   .banners
-    &_item
+    &__item   
       &-title
-        h3
-          font: 20px/20px $font-oswald
+        left: 1em
+        top: 1em
         span
-          font: 16px/16px $font-oswald
-  .events
-    &_description
-      margin-bottom: 10px
-  .footer
-    margin-bottom: 10px 
-    &_links
-      i
-        background-color: white
-  .navbar
-    background-color: $yellow
-    position: relative
-    height: auto
-    margin-top: 0
-    padding-top: 10px
-    &_menu
+          font-size: 1em
+  .poster
+    display: none
+  .reservation
+    padding: 1em  
+    &__card
+      width: 100%  
+
+  .site-header
+    padding: 1em 0
+    &__right
       align-items: flex-start
-      margin-top: 10px    
+      padding-top: .5em
       ul
         flex-direction: column
-        justify-content: flex-start
-        margin: 10px 0 10px
+        margin-top: 1em
         li
-          margin-left: 0          
-  .header_banner
-    display: none
+          margin-left: 0
 
-  .products
-    p
-      margin: 0 20px 20px
-    &_title
-      h2
-        font-size: 22px  
-    &_item
-      margin-bottom: 20px
-      &-description
-        h3
-          margin: 10px 0
-        p
-          margin: 0 0 10px 
-    button
-      margin: 0 0 20px 
-  .reservation
-    &_form
-      width: 100%
-           
+  // .banners, .events, .products
+  //   margin: 20px 0
+  // .banners
+  //   &_item
+  //     &-title
+  //       h3
+  //         font: 20px/20px $font-oswald
+  //       span
+  //         font: 16px/16px $font-oswald
+  // .events
+  //   &_description
+  //     margin-bottom: 10px
+  // .footer
+  //   margin-bottom: 10px 
+  //   &_links
+  //     i
+  //       background-color: white
+  // .navbar
+  //   background-color: $yellow
+  //   position: relative
+  //   height: auto
+  //   margin-top: 0
+  //   padding-top: 10px
+  //   &_menu
+  //     align-items: flex-start
+  //     margin-top: 10px    
+  //     ul
+  //       flex-direction: column
+  //       justify-content: flex-start
+  //       margin: 10px 0 10px
+  //       li
+  //         margin-left: 0          
+  // .banner-header
+  //   display: none
+  // .products
+  //   p
+  //     margin: 0 20px 20px
+  //   &_title
+  //     h2
+  //       font-size: 22px  
+  //   &_item
+  //     margin-bottom: 20px
+  //     &-description
+  //       h3
+  //         margin: 10px 0
+  //       p
+  //         margin: 0 0 10px 
+  //   button
+  //     margin: 0 0 20px 
+  // .reservation
+  //   &_form
+  //     width: 100%
+  //          

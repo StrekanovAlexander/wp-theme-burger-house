@@ -1,0 +1,254 @@
+%headings
+    font-weight: bold
+    text-transform: uppercase
+.banners, .products
+    margin: 4.75em 0 4em  
+.banners
+    &__item   
+        position: relative
+        &-title
+            @extend %headings
+            color: $white
+            font-family: $font-oswald
+            left: 2em
+            position: absolute
+            top: 2em
+            span
+                display: block
+                font-size: 2em
+                line-height: 1.25
+                &:first-child
+                    font-size: 1.25em
+.brand
+    a
+        @extend %headings
+        align-items: center
+        color: inherit
+        display: flex
+        font-family: $font-oswald
+        font-size: 1.85em
+        text-decoration: none
+        img
+            margin-right: .75em
+            text-decoration: none  
+    &-brown
+        color: $brown
+    &-white
+        color: $white
+.btn
+    @extend %headings
+    border: 0
+    &-red
+        background-color: $red
+        color: $white
+        font-family: $font-alfa-slab-one
+        font-weight: normal 
+    &-yellow
+        background-color: $yellow
+        color: $brown
+        font-family: $font-oswald 
+.card
+    margin: 1em 0 
+    &__image
+        display: block
+    &__description
+        h3
+            @extend %headings
+            font-family: $font-oswald 
+.copyright
+    @extend %headings
+    font-family: $font-oswald
+.events, .reservation
+    h2, span
+        @extend %headings
+    span
+        display: block
+        font-family: $font-oswald 
+.events
+    background-color: white
+    box-shadow: 15px 15px 20px rgb(0,0,0,.5)
+    margin: 5em 0 4em
+    padding: 1.5em  
+    h2, span
+        text-align: left
+.footer
+    background-image: url('../images/backgrounds/bg-footer.png')
+    background-repeat: no-repeat
+    background-size: auto 100%
+    color: white
+    height: 525px
+    margin: 2em 0 4em
+    padding: 4em 2em 2em
+    position: relative
+    .row
+        height: 100%
+    &__contacts
+        display: flex
+        justify-content: center 
+        align-items: center
+        padding-bottom: 2em
+        position: relative  
+        width: 100%
+        ul
+            list-style: none
+            li
+                @extend %headings
+                align-items: center
+                display: flex
+                font-family: $font-oswald
+                line-height: 2.5
+                i
+                    display: inline-block
+                    font-size: 1.75em
+                    text-align: center
+                    width: 3.25em    
+.poster
+    background-color: $yellow
+    background-image: url('../images/backgrounds/burger-header.png')
+    background-repeat: no-repeat
+    background-position: 82% 8%
+    color: $brown
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 51.5em
+    position: relative
+    .sticker
+        align-items: center
+        background-color: $red
+        border-radius: 50%
+        bottom: 5em
+        color: $white
+        display: flex
+        justify-content: center
+        height: 11em
+        position: absolute
+        right: 40%
+        text-transform: uppercase
+        width: 11em
+        &__container
+            align-items: center
+            border: 2px dashed $white
+            border-radius: 50%
+            display: flex
+            flex-direction: column
+            font-family: $font-oswald
+            justify-content: center
+            height: 9em
+            width: 9em
+        &__content
+            display: flex
+            flex-direction: column
+            justify-content: center
+            line-height: 1
+        &__price
+            span
+                &.big
+                    font-size: 3.55em
+                &.small
+                    font-size: 1.75em
+        &__text
+            display: flex
+            justify-content: space-between
+            font-size: 1.8em
+            line-height: 1.65 
+    &__content
+        @extend %headings
+        span 
+            display: block
+            &:nth-child(1)
+                border: 2px dashed $brown
+                display: inline-block
+                font-family: $font-oswald
+                font-size: 1.1em
+                margin-bottom: 1.25em
+                padding: .5em 1em
+            &:nth-child(2), &:nth-child(3)
+                font-family: $font-alfa-slab-one
+                font-weight: normal
+            &:nth-child(2)
+                font-size: 6.55em 
+                line-height: 1
+                text-shadow: 4px 4px $beige
+            &:nth-child(3)
+                font-size: 2.75em
+                text-shadow: 3px 3px $beige
+.products
+    h1
+        @extend %headings
+    p
+        text-align: center
+.reservation
+    background-image: url('../images/backgrounds/burger-and-bottle.png'), url('../images/backgrounds/burger-on-plate.png')
+    background-repeat: no-repeat, no-repeat
+    background-position: left top, right bottom
+    padding: 6.25em 
+    &__card
+        margin: 0 auto 3em
+        width: 65%
+        form
+            margin-top: 4.65em
+            button, input
+                text-transform: uppercase
+            button
+                border-radius: 4px
+                padding: .8em
+                width: 100%  
+            input
+                border: 1px solid $lightgray
+                color: $gray
+                font-family: $font-oswald
+                font-size: .95em
+                margin-bottom: 1.85em
+                padding: .95em   
+                width: 100%
+.site-header
+    background-color: $yellow
+    padding: 3.38em 0 1em 
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    width: 100%
+    z-index: 1 
+    &__right
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        ul
+            list-style: none
+            display: flex 
+            flex-direction: row
+            justify-content: flex-end
+            margin-top: 2.38em
+            li
+                margin-left: 3.55em
+                a
+                    @extend %headings
+                    color: $brown
+                    font-family: $font-oswald  
+                    letter-spacing: 6px
+                    text-decoration: none 
+.social-links
+    display: flex
+    bottom: 0
+    right: 0
+    position: absolute
+    a
+        text-decoration: none
+        i
+            background-color: rgba(white, .75)
+            border-radius: 50%
+            color: black
+            font-size: 1.25em
+            display: flex
+            justify-content: center
+            align-items: center
+            height: 1.5em
+            margin-left: 0.5em
+            width: 1.5em
+            transition: all .2s
+            &:hover
+                background-color: white       
+.text-center
+    text-align: center  

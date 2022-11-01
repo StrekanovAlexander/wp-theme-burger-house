@@ -7,144 +7,162 @@
         <meta name="author" content="">
         <title>Burger house</title>
         <link rel="icon" href="/favicon.ico">
-        <link rel="canonical" href="https://mysite.com/mypage">
         <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
-        <header>
-            <div class="navbar">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-auto">
-                            <div class="logo">
-                                <a href="#" class="logo-brown">
-                                    <img src="./images/logotypes/logo-burger-brown.png">
-                                    <span>Burger house</span>
-                                </a>
-                            </div>
+        <header class="site-header">
+            <div class="container"> 
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-auto">
+                        <div class="brand brand-brown">
+                            <a href="#">
+                                <img src="./images/logotypes/logo-burger-brown.png">
+                                <span>Burger house</span>
+                            </a>
                         </div>
-                        <div class="col-md-auto">
-                            <div class="navbar_menu">
-                                <strong>Express delivery +1 234 567 890</strong>
-                                <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">Menu</a></li>
-                                    <li><a href="">Our story</a></li>
-                                    <li><a href="">Contact us</a></li>
-                                </ul>
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="site-header__right">
+                            <strong>Express delivery +1 234 567 890</strong>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">Our story</a></li>
+                                <li><a href="">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </header>
+        <!-- End Header section-->
+        <section>
+            <div class="poster">
+                <div class="container">
+                    <div class="poster__content">
+                        <span>It is a good time for the great taste of burgers</span>
+                        <span>Burger</span>
+                        <span>Week</span>
+                    </div>
+                </div>
+                <div class="sticker">
+                    <div class="sticker__container">
+                        <div class="sticker__content">
+                            <div class="sticker__price">
+                                <span class="big">$5</span><span class="small">.49</span>
+                            </div>
+                            <div class="sticker__text">
+                                <span>O</span>
+                                <span>n</span>
+                                <span>l</span>
+                                <span>y</span>
                             </div>
                         </div>
                     </div>
-                </div>  
-            </div>
-            <!-- Navbar end -->
-            <div class="header_banner">
-                <div class="container">
-                    <p>It is a good time for the great taste of burgers</p>    
-                    <h1>Burger</h1>
-                    <span>Week</span>
                 </div>
             </div>
-            <!-- Banner end --> 
-        </header>
-        <!-- Header end -->
+        </section>
+        <!-- End of Poster section -->
         <main>
             <div class="container">
                 <section>
                     <div class="banners">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="banners_item">
+                                <div class="banners__item">
                                     <img src="./images/banners/banner-1.png" alt="">
-                                    <div class="banners_item-title">
-                                        <span>Try it today</span>
-                                        <h3>Most popular burger</h3>
-                                    </div>           
+                                    <div class="banners__item-title">
+                                        <span>Try it today</span>    
+                                        <span>Most popular burger</span>
+                                    </div>    
                                 </div>
                             </div>
                             <div class="col-md-6 d-flex flex-column justify-content-between">
-                                <div class="banners_item">
+                                <div class="banners__item">
                                     <img src="./images/banners/banner-2.png" alt="">
-                                    <div class="banners_item-title">
-                                        <span>Try it today</span>
-                                        <h3>More fun</h3>
-                                        <h3>More taste</h3>
-                                    </div> 
+                                    <div class="banners__item-title">
+                                        <span>Try it today</span>    
+                                        <span>More fun</span>
+                                        <span>More taste</span>
+                                    </div>    
                                 </div>
-                                <div class="banners_item">    
+                                <div class="banners__item">
                                     <img src="./images/banners/banner-3.png" alt="">
-                                    <div class="banners_item-title">
-                                        <span>Try it today</span>
-                                        <h3>Fresh and Chili</h3>
+                                    <div class="banners__item-title">
+                                        <span>Try it today</span>    
+                                        <span>Fresh and Chili</span>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-yellow">Always tasty burger</button>
+                    </div>
+                </section>
+                <!-- End of Banners section -->
+                <section>
+                    <div class="products">
+                        <h1>Choose & enjoy</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo provident, a atque sunt, ex pariatur ullam vitae non voluptatem earum, quo accusantium ad quos quae?
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card__image">
+                                        <img src="./images/products/burger-1.png" alt=""> 
+                                    </div>
+                                    <div class="card__description">
+                                        <h3>Lorem ipsum dolor</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, earum.</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-red">Order now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card__image">
+                                        <img src="./images/products/burger-2.png" alt=""> 
+                                    </div>
+                                    <div class="card__description">
+                                        <h3>Lorem ipsum dolor</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, earum.</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-red">Order now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card__image">
+                                        <img src="./images/products/burger-1.png" alt=""> 
+                                    </div>
+                                    <div class="card__description">
+                                        <h3>Lorem ipsum dolor</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, earum.</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-red">Order now</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <div class="row justify-content-center">
-                    <button class="btn-yellow">Always tasty burger</button>
-                </div>
-                 <section>
-                    <div class="products">
-                        <div class="products_title">
-                            <h2>Choose & enjoy</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium nam repellendus a cumque mollitia tempore expedita dolor sapiente molestiae voluptatem, delectus reprehenderit eaque qui reiciendis aut sint officiis fugit!</p>  
-                        </div>
-                        <div class="row justify-content-between">
-                            <div class="col-md-3">
-                                <div class="products_item">
-                                    <img src="./images/products/burger-1.png" alt="">
-                                    <div class="products_item-description">
-                                        <h3>Lorem ipsum</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                    </div>
-                                    <button class="btn-red">
-                                        Order now
-                                    </button>    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="products_item">
-                                    <img src="./images/products/burger-2.png" alt="">
-                                    <div class="products_item-description">
-                                        <h3>Lorem ipsum</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                    </div>
-                                    <button class="btn-red">
-                                        Order now
-                                    </button>   
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="products_item">
-                                    <img src="./images/products/burger-1.png" alt="">
-                                    <div class="products_item-description">
-                                        <h3>Lorem ipsum</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                    </div>
-                                    <button class="btn-red">
-                                        Order now
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </section>
-                <!-- Products section and -->
+                <!-- End of Products section -->
                 <section>
                     <div class="events">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="section_title">
-                                    <span>Discover</span>
-                                    <h2>Upcoming events</h2>
-                                </div>    
-                                <div class="events_description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quod quasi, facilis, laborum dolorem maiores modi accusantium illum, ea voluptatem repellat doloremque nulla omnis exercitationem tempora veniam repellendus doloribus perspiciatis? Enim consequatur illo aspernatur optio corrupti totam quae facilis ab rerum necessitatibus? Quae nisi harum dolorum nesciunt consectetur autem exercitationem!</p>
-                                </div>
+                                <span>Discover</span>
+                                <h2>Upcoming events</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum distinctio quod amet ratione et quaerat cupiditate assumenda itaque, praesentium a dolores beatae, velit ex rerum obcaecati. Labore fugiat, placeat praesentium officiis incidunt recusandae quisquam eius! Unde, amet? Voluptatem, accusamus explicabo recusandae atque aperiam veritatis! Enim praesentium voluptate laboriosam repellat!</p>
                             </div>
                             <div class="col-md-6">
                                 <img src="./images/events/event-example.png" alt="">
@@ -152,14 +170,12 @@
                         </div>
                     </div>
                 </section>
-                <!-- Events end -->
+                <!-- End of Events section-->
                 <section>
-                    <div class="reservation">
-                        <div class="section_title">
-                            <span>Reservation</span>
-                            <h2>Book your table</h2>
-                        </div>
-                        <div class="reservation_form">
+                    <div class="reservation text-center">
+                        <span>Reservation</span>
+                        <h2>Book your table</h2>
+                        <div class="reservation__card">
                             <form action="#">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -182,25 +198,25 @@
                                         <input type="text" placeholder="People">
                                     </div>
                                     <div class="col-md-6">
-                                        <button class="btn-red">Find a table</button>
+                                        <button class="btn btn-red">Find a table</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </section>
-                <!-- Reservation end-->
+                <!-- End of Reservation section-->
             </div>
         </main>
-        <!-- Main end-->
+        <!-- End of Main section -->
         <footer>
             <div class="container">
                 <div class="footer">
                     <div class="row">
-                        <div class="col-md-6 footer_about">
+                        <div class="col-md-6 d-flex flex-column justify-content-between">
                             <div>
-                                <div class="logo">
-                                    <a href="#" class="logo-white">
+                                <div class="brand brand-white">
+                                    <a href="#">
                                         <img src="./images/logotypes/logo-burger-white.png">
                                         <span>Burger house</span>
                                     </a>
@@ -208,41 +224,43 @@
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iure corrupti veniam corporis placeat obcaecati, consequuntur aliquid veritatis ducimus dicta minus possimus dolores illo deleniti, quaerat odit unde hic porro.
                                 </p>
-                            </div>
-                            <div class="footer_copyright">
+                            </div>    
+                            <div class="copyright">
                                 &copy; Company name. All rights reserved
                             </div>
                         </div>
-                        <div class="col-md-6 footer_contacts">
-                            <ul>
-                                <li>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    Main road, building name, country</li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    info@companyname.com
-                                </li>
-                            </ul>
-                            <div class="footer_links">
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="#">    
-                                    <i class="fab fa-facebook"></i>
-                                </a>    
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>    
-                                <a href="#">
-                                    <i class="fab fa-viber"></i>
-                                </a>    
-                            </div>    
+                        <div class="col-md-6 d-flex">
+                            <div class="footer__contacts">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Main road, building name, country</li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        info@companyname.com
+                                    </li>
+                                </ul>
+                                <div class="social-links">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">    
+                                        <i class="fab fa-facebook"></i>
+                                    </a>    
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>    
+                                    <a href="#">
+                                        <i class="fab fa-viber"></i>
+                                    </a>    
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Footer end-->
-        <script src="./js/jquery-3.2.1.slim.min.js"></script>
+        <!-- End of Footer section -->
     </body>
 </html>
